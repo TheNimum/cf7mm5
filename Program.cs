@@ -22,7 +22,12 @@ namespace cf7mm5
 
                 } //denna delen av koden skriver talen i backlänges ordning.
                 for(i = arr.Length -1; i>=0; i--){
-                    Console.Write(arr[i]);
+                    Console.Write(arr[i]);  
+                    if(i <= arr.Length )
+                    {
+                      Console.Write(", "); 
+                    }
+                    
 
                 }
                 
